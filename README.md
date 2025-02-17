@@ -30,7 +30,7 @@ MiBiPreT tools and beyond.
 2. Adapt the preliminary structure to your project needs. Populate with your files and
    remove template files. 
 
-3. Update the README.md. It should contain information that will help anyone, including
+3. Update the `README.md`. It should contain information that will help anyone, including
    a future version of yourself to understand why this project exists, how things are 
    organized (repository structure), where they can find more information and anything else you want to specify.
 
@@ -43,22 +43,22 @@ MiBiPreT tools and beyond.
 
 ### Basic structure
 We suggest to organize your repository in the given structure:
-- `data/` - here you place your input data (add subfolders, if appropriate, see below)
+- `data/` - *here you place your input data (add subfolders, if appropriate, see below)*
     - data.csv
-- `docs/` - marcdown-files containing your documentation
-    |- doc.md
-- `notebooks/` - here your examples notebooks are stored (add subfolders, if appropriate)
-    | - prototype-notebook.ipynb
-- `results/` - here your computed results and plots are stored (add subfolders, if appropriate)
-    |- results.csv
+- `docs/` - *Markdown-files containing your documentation*
+    - doc.md
+- `notebooks/` - *here your examples notebooks are stored (add subfolders, if appropriate)*
+     - prototype-notebook.ipynb
+- `results/` - *here your computed results and plots are stored (add subfolders, if appropriate)*
+    - results.csv
 - `scripts/`  - here place all your python scripts
-    - `analysis/` - all scripts for data analysis, modelling etc, ideally in the form of functions and classes
+    - `analysis/` - *all scripts for data analysis, modelling etc, ideally in the form of functions and classes*
         - analysis.py
-    - `data/` - all scripts for data manipulation, such loading, clean-up, preprocessing
+    - `data/` - *all scripts for data manipulation, such loading, clean-up, preprocessing*
         - data.py 
-    - `tests/` - scripts to test your main functionality (from `analysis/`)
+    - `tests/` - *scripts to test your main functionality (from `analysis/`)*
         - test_analysis.py
-    - `visualize/` - scripts for data and results visualization (e.g. figures in publications)
+    - `visualize/` - *scripts for data and results visualization (e.g. figures in publications)*
         - visualize.py
 - CITATION.cff - specify your credentials for citation here
 - environment.yml
@@ -72,22 +72,24 @@ should be adapted to the project specifics and requirements.
 
 We suggest possible extensions, such as
 * adding archive folder with scripts and data no longer in use, e.g.
-- `notebooks/`
-    - prototype-notebook.ipynb
-    - `archive/`
-            no-longer-useful.ipynb
-    - `figures/`
+    - `notebooks/`
+        - prototype-notebook.ipynb
+        - `archive/`
+               -no-longer-useful.ipynb
+        - `figures/`
+            - Fig_01.png
+            - Fig_02.png        
 * substructuring your data, such as
-- `data/`
-    - `raw/`
-    - `processed/`
-    - `cleaned/`
+    - `data/`
+        - `raw/`
+        - `processed/`
+        - `cleaned/`
 * if you work with additional software which requires input files, e.g. bash-scripts 
   for working on cluster, ModFlow input files etc, create a new folder for these 
   scripts, e.g. within the script-folder:
-- `scripts/`  
-    - `bash/` - bash scripts for cluster work
-
+    - `scripts/`  
+        - `bash/` - bash scripts for cluster work
+    
 
 ## Sources
 
