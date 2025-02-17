@@ -11,7 +11,7 @@ authors:
 date-released: 2024-03-26
 doi: 10.5281/zenodo.1234
 version: "0.1.0"
-repository-code: "https://github.com/MiBiREM/my-project"
+repository-code: "https://github.com/MiBiPreT-FieldSites/my-project"
 keywords:
   - bioremediation
   - contaminant data analysis
